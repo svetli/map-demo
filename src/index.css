@@ -11,3 +11,119 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.speedy-marker {
+  background-color: red;
+  width: 50px !important;
+  height: 40px !important;
+  cursor: pointer;
+}
+
+.speedy-marker .name {
+  font-size: 10px;
+}
+
+.speedy-marker .type {
+  color: white;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: -3px;
+}
+
+.speedy-marker .name img {
+  width: 50px !important;
+}
+
+.officeInfo {
+  font: 11px PlutoSansDPDLight,Arial,Helvetica,sans-serif;
+  color: #414042;
+  max-width: 200px;
+}
+
+.tableHeader {
+  width: 100%;
+}
+
+a.aOfficeLink {
+  font-weight: 700;
+  text-decoration: none;
+  color: #414042;
+}
+
+.imgIconDirections { display: none; }
+.divIcons { display: none; }
+
+.divOfficeAddress {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-top: 5px;
+  border-top: 1px solid #414042;
+}
+
+.divWtBlock {
+  margin-top:15px
+}
+.divWtTitle,
+.divWtExTitle {
+  font-weight:700
+}
+.divWtTitle {
+  color:#414042
+}
+.divWtExTitle {
+  color:#dc0032
+}
+.divWtText {
+  line-height:1.8;
+  margin-top:3px
+}
+.divWtRow,
+.divWtExRow {
+  width:100%;
+  display:flex;
+  margin-top:2px
+}
+.divWtRow {
+  color:#808285
+}
+.divWtExRow {
+  color:#dc0032
+}
+.divWtDay {
+  width:calc(100% - 106px);
+  display:inline
+}
+.divWtHours,
+.divWtExHours {
+  width:100px;
+  display:inline;
+  font-weight:700;
+  text-align:right
+}
+.divWtHours {
+  color:#414042
+}
+.divWtExHours {
+  color:#dc0032
+}
+.divWtMark {
+  width:6px;
+  display:inline;
+  text-align:right
+}
+
+.arrow{
+  display: block;
+  width: 0px;
+  height: 0px;
+  border:10px solid transparent;
+  margin-left: 15px;
+}
+
+.arrow.arrow-down{
+  border-top-color: red;
+  border-bottom-width: 0px;
+}

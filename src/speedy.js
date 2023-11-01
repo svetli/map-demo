@@ -1,6 +1,6 @@
-const iconMarker = "";
+const iconMarker = "office";
 const iconMarkerFocused = "";
-const iconMarkerAPS = "";
+const iconMarkerAPS = "aps";
 const iconMarkerAPSFocused = "";
 
 const SpeedyOffices = {
